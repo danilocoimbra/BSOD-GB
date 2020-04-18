@@ -1,36 +1,31 @@
 {
-machines: [
-  {
-    "name": "N000123",
-    "password": 123456
-  },
-  {
-    "name": "N000124",
-    "password": 123457
-  },
-  {
-    "name": "N000125",
-    "password": 123458
-  },
-  {
-    "name": "N000126",
-    "password": 123459
-  },
-  {
-    "name": "N000127",
-    "password": 123460
-  },
-  {
-    "name": "N000128",
-    "password": 123461
-  },
-  {
-    "name": "N000129",
-    "password": 123462
-  },
-  {
-    "name": "N000130",
-    "password": 123463
-  }
-]
+"posts": [
+{
+"id": 1,
+"title": "Post 1"
+},
+{
+"id": 2,
+"title": "Post 2"
+},
+{
+"id": 3,
+"title": "Post 3"
+}
+],
+"comments": [
+{
+"id": 1,
+"body": "some comment",
+"postId": 1
+},
+{
+"id": 2,
+"body": "some comment",
+"postId": 1
+}
+],
+"profile": {
+"name": "typicode"
+}
 }
